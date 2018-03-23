@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=msg
+comment0.target=void\ message(java.lang.String)
+comment0.text=\r\n\ Display\ a\ message\ in\ a\ dialog\ box\ -\ NB\ error\ status\ always\ false\r\n\ \r\n\ @param\ msg\ message\ to\ be\ displayed\r\n
+comment1.params=prompt
+comment1.target=int\ inputInt(java.lang.String)
+comment1.text=\r\n\ Display\ a\ prompt\ and\ read\ an\ int\ value\r\n\ \r\n\ @param\ prompt\ prompt\ to\ be\ displayed\r\n\ @return\ value\ input\ by\ user\ -\ if\ invalid\ format,\ error\ flag\ is\ set\ and\r\n\ \ \ \ \ \ \ \ \ zero\ returned\r\n
+comment2.params=prompt
+comment2.target=float\ inputFloat(java.lang.String)
+comment2.text=\r\n\ Display\ a\ prompt\ and\ read\ a\ float\ value\r\n\ \r\n\ @param\ prompt\ prompt\ to\ be\ displayed\r\n\ @return\ value\ input\ by\ user\ -\ if\ invalid\ format,\ error\ flag\ is\ set\ and\r\n\ \ \ \ \ \ \ \ \ 0.0F\ returned\r\n
+comment3.params=prompt
+comment3.target=java.lang.String\ inputString(java.lang.String)
+comment3.text=\r\n\ Display\ a\ prompt\ and\ read\ a\ String\r\n\ \r\n\ @param\ prompt\ prompt\ to\ be\ displayed\r\n\ @return\ string\ input\ by\ user,\ possibly\ zero\ length,\ never\ null\ -\ NB\ error\r\n\ \ \ \ \ \ \ \ \ is\ always\ false\ on\ return\r\n
+comment4.params=prompt
+comment4.target=char\ inputChar(java.lang.String)
+comment4.text=\r\n\ Display\ a\ prompt\ and\ read\ a\ single\ character\r\n\ \r\n\ @param\ prompt\ prompt\ to\ be\ displayed\r\n\ @return\ value\ input\ by\ user\ -\ if\ invalid\ format\ i.e.\ more\ or\ less\ than\ a\r\n\ \ \ \ \ \ \ \ \ single\ character,\ error\ flag\ is\ set\ and\ a\ space\ character\r\n\ \ \ \ \ \ \ \ \ returned\r\n
+comment5.params=
+comment5.target=boolean\ error()
+comment5.text=\r\n\ Indicates\ whether\ a\ format\ error\ occurred\ on\ last\ operation\r\n\ \r\n\ @return\ error\ status\r\n
+comment6.params=
+comment6.target=java.lang.String\ errorInput()
+comment6.text=\r\n\ Returns\ input\ string\ which\ yielded\ most\ recent\ error\ status\ -\ NB\r\n\ meaningful\ only\ when\ error()\ is\ true\r\n\ \r\n\ @return\ raw\ string\ input\ by\ user\r\n
+comment7.params=
+comment7.target=java.lang.String\ errorMsg()
+comment7.text=\r\n\ Returns\ a\ simple\ description\ of\ nature\ of\ most\ recent\ error\ status\ -\ NB\r\n\ meaningful\ only\ when\ error()\ is\ true\r\n\ \r\n\ @return\ error\ message\r\n
+numComments=8
